@@ -1,0 +1,247 @@
+@import url(@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600);
+
+* {
+  font-family: "Source Sans Pro", "Lucida Grande", sans-serif;
+}
+
+.clearfix {
+  clear: both;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+h4 {
+  font-size: 17px;
+  font-weight: 200;
+}
+
+.p {
+  font-size: 16px;
+  font-weight: 200; 
+}
+
+a {
+  text-decoration: none;
+  color: #eee;
+  font-weight: 200;
+}
+
+button {
+  color:#eee;
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+  font-weight: lighter;
+  border-radius: 30px;
+  width: 180px;
+  height: 50px;
+  margin-top: 7px;
+}
+
+.spaceheader {
+  margin-right: 16px;
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding: 5px 0;
+  height: 22px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.top-left {
+  padding-left: 10px;
+  display: inline-block;
+}
+
+.heart {
+  padding-left: 10px;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 15px; 
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+#header {
+  color: #eee;
+  background-color: rgb(32, 101, 136);
+  background-size: cover;
+  height: 13.5cm;
+  background-color: rgb(39, 53, 71,.8);
+  background-image: url("../starter-code/images/city-scape.svg");
+}
+
+.search-div {
+  width: 100%;
+  height: 100px;
+  margin-left: 10px;
+}
+
+.logo-npm {
+  width: 125px;
+  height: 50px;
+  float: left;
+  padding: 24px 10px;
+}
+
+.search-div input {
+  float: left;
+  padding: 23px 0;
+  width: 70%;
+  height: 1px;
+  background-color: rgb(31, 82, 111);
+  margin-top: 20px;
+  border: 1px solid rgba(255,255,255,0.2);
+  font-size: 15px;
+  text-indent: 13px;
+}
+
+.search-div button {
+  background-color: rgb(31, 82, 111);
+  width: 49px;
+  height: 49px;
+  float: left;
+  margin-top: 20px;
+  border: 1px solid rgba(255,255,255,0.2);
+  color: #eee;
+  border-radius: 0;
+}
+
+.session {
+  color: #eee;
+  font-weight: 200;
+  font-size: 15px;
+  padding: 33px 15px;
+  float: left; 
+}
+
+.bear-image {
+  width: 47px;
+  height: 47px; 
+  vertical-align: middle;
+  margin-left: -1px;
+  padding-top: 20px;
+}
+
+.header-text {
+  width: 530px;
+  padding-top: 45px;
+  padding-left: 230px;
+  display: block;
+}
+
+.sign-up-npm{
+  background-color: rgb(240, 146, 51);
+  border: solid rgb(240, 146, 51);
+}
+
+#one {
+  background: url("../starter-code/images/collaboration.svg") no-repeat;
+  background-color: rgb(39, 53, 71);
+  background-size: 40%;
+  background-position-x: 6cm;
+  background-position-y: 1.6cm;
+  height: 13.5cm;
+}
+
+.collab-content {
+  padding-top: 75px;
+  color: #eee;
+  padding-left: 900px;
+  width: 477px;
+  display: block;
+}
+
+ul { 
+  font-weight: 200; 
+  position: relative;
+  margin-left: -22px;
+  margin-top: 13px; 
+
+}
+
+.sign-up-orgs{
+  background-color: rgb(203, 56, 55);
+  border: solid rgb(203, 56, 55);
+}
+
+#two {
+  background: url("../starter-code/images/forklift.svg");
+  background-color: rgb(39, 53, 71);
+  background-size: cover;
+  height: 13.5cm;
+  position: relative;
+}
+
+.about {
+  padding-top: 100px;
+  color: #eee;
+  padding-left: 6cm;
+  position: absolute;
+  width: 370px;
+  display:block;
+}
+
+.install-npm{
+  background-color: rgb(49, 68, 88);
+  border: solid rgb(49, 68, 88);
+}
+
+#three header {
+  text-align: center;
+  padding-top: -10px;
+  font-weight: lighter;
+  color: rgb(83, 88, 98);
+}
+
+#three header p{
+  color: rgb(135, 145, 156);
+  margin-top: 5px;
+}
+
+.languages {
+  color: rgb(208, 74, 73);
+  text-decoration: none;
+}
+
+#three article {
+  float: left;
+  padding: 20px;
+  margin: 5px;
+  width: calc(33% - 50px);
+  text-align: center;
+  color: rgb(135, 145, 156);
+}
+
+#three article h3{
+  color: rgb(83, 88, 98);
+}
+
+#three article p{
+  padding: 0 80px;
+}
