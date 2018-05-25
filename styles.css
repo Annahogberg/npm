@@ -161,7 +161,7 @@ nav a {
 }
 
 #one {
-  background: url("../starter-code/images/collaboration.svg") no-repeat;
+  background: url("/images/collaboration.svg") no-repeat;
   background-color: rgb(39, 53, 71);
   background-size: 40%;
   background-position-x: 6cm;
@@ -191,7 +191,7 @@ ul {
 }
 
 #two {
-  background: url("../starter-code/images/forklift.svg");
+  background: url("/images/forklift.svg");
   background-color: rgb(39, 53, 71);
   background-size: cover;
   height: 13.5cm;
